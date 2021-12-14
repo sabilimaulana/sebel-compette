@@ -1,16 +1,21 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.home {
+  background-image: url("../public/img/top-background.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  background-color: #fafaff;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+.subscribe-card {
+  background-image: url("../public/img/subscribe-card-bg.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
 
-* {
-  box-sizing: border-box;
+  background-color: #fafaff;
 }
